@@ -8,7 +8,8 @@
 
 git clone <frontend_repository_url>
 
-### cd todoapp
+cd todoapp
+
 ## Install Dependencies:
 
 
