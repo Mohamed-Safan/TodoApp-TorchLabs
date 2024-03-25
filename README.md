@@ -28,7 +28,7 @@ npm run dev
 
  cd server
 
-###= Install Backend Dependencies:
+### Install Backend Dependencies:
 
 npm install
 
