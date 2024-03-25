@@ -4,11 +4,12 @@
 ## Navigate to the ToDo App Directory:
 
 
-### clone the frontend
+## clone the frontend (Client)
 
-git clone <frontend_repository_url>
+git clone <repository_url>
 
-cd todoapp
+cd client
+
 
 ## Install Dependencies:
 
@@ -17,7 +18,9 @@ npm install
 
 npm install axios
 
-npm run dev 
+npm run dev       
+
+( App will run on http://localhost:5173/)
 
 
 
@@ -25,7 +28,7 @@ npm run dev
 
  cd server
 
-### Install Backend Dependencies:
+###= Install Backend Dependencies:
 
 npm install
 
@@ -39,5 +42,5 @@ npm install nodemon
 npm start
 
 
-#Make sure to run the server, when you run the Frontend
+# Make sure to run the server, when you run the Frontend (Client
 
