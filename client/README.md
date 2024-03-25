@@ -14,7 +14,9 @@ cd todoapp
 
 
 npm install
+
 npm install axios
+
 npm run dev 
 
 
