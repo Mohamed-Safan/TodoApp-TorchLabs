@@ -45,5 +45,5 @@ npm start
 
 
 
-# Make sure to run the server, when you run the Frontend (Client
+# Make sure to run the server, when you run the Frontend (Client)
 
