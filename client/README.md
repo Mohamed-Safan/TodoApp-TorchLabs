@@ -28,7 +28,9 @@ npm run dev
 ### Install Backend Dependencies:
 
 npm install
+
 npm install express mongoose cors
+
 npm install nodemon 
 
 
