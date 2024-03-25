@@ -1,0 +1,163 @@
+
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background: linear-gradient(to right, #f3f3f3, #e3e3e3); /* Light grey gradient */
+    min-height: 100vh;
+  }
+  
+  .filter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .filter-icon {
+    font-size: 24px;
+    margin-right: 10px;
+    cursor: pointer;
+    color: #555; /* Dark grey icon color */
+  }
+  
+  .filter-options {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .filter-options span {
+    cursor: pointer;
+    color: #fff;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 20px;
+    background-color: #76a1ce; /* Blue color for filter options */
+    transition: background-color 0.3s ease;
+  }
+  
+  .filter-options span:hover {
+    background-color: #76a1ce; /* Darker blue color on hover */
+  }
+  
+  .task {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    background-color: #fff;
+    color: #333;
+    height: 50px;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+  }
+  
+  .task:hover {
+    background-color: #f5f5f5;
+  }
+  
+  .checkbox {
+    display: flex;
+    align-items: center;
+  }
+  
+  .checkbox .icon {
+    margin-right: 10px;
+    font-size: 20px;
+  }
+  
+  .line_middle {
+    text-decoration: line-through;
+  }
+  
+  .task div span {
+    margin: 0px 5px 0px 4px;
+  }
+  
+  .task div .icon {
+    cursor: pointer;
+  }
+  
+  .task.active {
+    background-color: #63cdda; /* Light blue color for active tasks */
+    color: #fff;
+  }
+  
+  .task.completed {
+    background-color: #ff6f61; /* Orange color for completed tasks */
+    color: #fff;
+  }
+  
+  /* Create.css */
+  
+  .create-container {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .animated-heading {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+    animation: fadeIn 1s ease-in-out; /* Apply fadeIn animation */
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .create-input {
+    width: 100%;
+    max-width: 400px;
+    padding: 12px;
+    border: 1px solid #ccc; /* Light grey border */
+    border-radius: 5px;
+    outline: none;
+    margin-bottom: 20px;
+    transition: border-color 0.3s ease;
+    font-size: 16px;
+  }
+  
+  .create-input:focus {
+    border-color: #76a1ce; /* Blue border color on focus */
+  }
+  
+  .create-button {
+    padding: 12px 24px;
+    background-color: #76a1ce; /* Blue color for button */
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    font-size: 16px;
+  }
+  
+  .create-button:hover {
+    background-color: #0056b3; /* Darker blue color on hover */
+  }
+  
+  .clear-completed-btn {
+    padding: 8px 16px;
+    background-color: #76a1ce;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .clear-completed-btn:hover {
+    background-color: #024668;
+  }
+  
